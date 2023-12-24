@@ -88,12 +88,12 @@
         </section>
         <!-- Client Section -->
         <section>
-            <div class="container flex justify-around bg-blue-950 px-5 mx-auto py-20 align-middle gap-10">
+            <div class="container flex md:flex-row flex-col justify-around bg-blue-950 px-5 mx-auto py-20 align-middle gap-10">
                 <div class="text-center md:flex justify-center align-middle flex-col gap-5">
                     <h1 class="text-3xl text-yellow-500 animate-bounce">My Clients</h1>
                     <h2 class="text-2xl text-white">My Take care of more <span class="underline decoration-yellow-500">than 500k</span> Customers</h2>
                 </div>
-                <div class="grid md:grid-cols-3 gap-12">
+                <div class="grid md:grid-cols-3 sm:grid-cols-2 justify-center align-middle gap-12">
                     <img src="image/client-01.png" alt="">
                     <img src="image/client-01.png" alt="">
                     <img src="image/client-01.png" alt="">
@@ -108,14 +108,65 @@
         </section>
         <!-- Form Section -->
         <section class="my-24">
-            <div class="container bg-blue-900 mx-auto text-center py-10">
+            <div class="container bg-blue-900 mx-auto text-center md:py-32 py-20">
                 <h1 class="text-white text-3xl mb-5">Ask A Question</h1>
                 <div>
-                    <form class="w-[600px] mx-auto" action="#">
-                        <input class="" type="email" placeholder="Your Email" name="" id="">
-                        <input type="text" placeholder="Your Question" name="" id="">
-                        <input type="submit" value="Submit">
+                    <form action="#">
+                        <input type="email" class="w-5/6 sm:w-1/2 block m-auto py-4 px-2 rounded my-3"  placeholder="Your Email">
+
+                        
+                        <textarea class="w-5/6 sm:w-1/2 block m-auto py-4 px-2 rounded my-3 h-40" placeholder="Your Question"></textarea>
+                        <input type="submit" class="text-white bg-black px-8 py-5 mt-4 rounded-md cursor-pointer" value="Send Now">
                     </form>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Plan-->
+        <section>
+            <div class="container mx-auto py-32 md:py-48 bg-blue-950">
+                <div class="grid px-10 gap-10 md:grid-cols-3 sm:grid-cols-2">
+                    <div class="border-white border py-5 px-5 text-white w-full ">
+                        <h3 class="text-xl">Basic Plan</h3>
+                        <h1 class=" font-bold">$ <span class="text-5xl">19.00</span>/month</h1>
+                        <hr class="my-8">
+                        <ul class="text-xl list-disc list-inside leading-10">
+                            <li>5000 User Activities</li>
+                            <li>Unlimited Access</li>
+                            <li>No Hidden Charge</li>
+                            <li>03 Tim Updates</li>
+                            <li>Figma Source File</li>
+                            <li>Many More Facilities</li>
+                        </ul>
+                        <button class="text-white text-2xl bg-green-900 py-3 px-5 my-8">Purchase</button>
+                    </div>
+                    <div class="border-white border py-5 px-5 text-white w-full">
+                        <h3 class="text-xl">Basic Plan</h3>
+                        <h1 class=" font-bold">$ <span class="text-5xl">19.00</span>/month</h1>
+                        <hr class="my-8">
+                        <ul class="text-xl list-disc list-inside leading-10">
+                            <li>5000 User Activities</li>
+                            <li>Unlimited Access</li>
+                            <li>No Hidden Charge</li>
+                            <li>03 Tim Updates</li>
+                            <li>Figma Source File</li>
+                            <li>Many More Facilities</li>
+                        </ul>
+                        <button class="text-white text-2xl bg-green-900 py-3 px-5 my-8">Purchase</button>
+                    </div>
+                    <div class="border-white border py-5 px-5 text-white w-full">
+                        <h3 class="text-xl">Basic Plan</h3>
+                        <h1 class=" font-bold">$ <span class="text-5xl">19.00</span>/month</h1>
+                        <hr class="my-8">
+                        <ul class="text-xl list-disc list-inside leading-10">
+                            <li>5000 User Activities</li>
+                            <li>Unlimited Access</li>
+                            <li>No Hidden Charge</li>
+                            <li>03 Tim Updates</li>
+                            <li>Figma Source File</li>
+                            <li>Many More Facilities</li>
+                        </ul>
+                        <button class="text-white text-2xl bg-green-900 py-3 px-5 my-8">Purchase</button>
+                    </div>
                 </div>
             </div>
         </section>
